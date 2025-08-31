@@ -47,10 +47,17 @@ pip install -r requirements.txt
 ```
 
 
-### 3. Run the app:
+### 3. Install Ollama and download Phi-3 model:
+Note: The app uses a local Ollama model, so ensure Phi-3 is installed on the machine where you run the app.
+
+```bash
+ollama pull phi3
+```
+
+### 4. Run the app:
 
 ```bash
 streamlit run app.py
 ```
 
-### 4. Upload a PDF and start asking questions!
+### 5. Upload a PDF and start asking questions!
